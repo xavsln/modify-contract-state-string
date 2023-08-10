@@ -3,7 +3,7 @@
 This is a simple project that makes use of Hardhat.
 I comes with a contract that allows to store a string variable and a function to change it.
 
-It also includes scripts to 1/ deploy the contract, get the variable value and change the variable value.
+It also includes scripts to 1/ deploy the contract, 2/ get the variable value and 3/ change the variable value.
 
 Finally, tests are provided for each functionality.
 
