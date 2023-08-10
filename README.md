@@ -13,5 +13,5 @@ Goerli Ethereum Testnet: 0x647ae34dA6764eb904D07ce6202468de6A302Aa5
 
 ## Main commands used on Hardhat
 
-% npx hardhat run scripts/changeMyVariable.js --network goerli
-% npx hardhat run scripts/getMyVariable.js --network goerli
+- % npx hardhat run scripts/changeMyVariable.js --network goerli
+- % npx hardhat run scripts/getMyVariable.js --network goerli
