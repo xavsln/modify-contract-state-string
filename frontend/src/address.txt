@@ -1,0 +1,5 @@
+
+
+ModifyStringVariable contract address on Goerli Ethereum testnet
+0x647ae34dA6764eb904D07ce6202468de6A302Aa5
+

@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [
+      { "internalType": "string", "name": "_myVariable", "type": "string" }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [
+      { "internalType": "string", "name": "_myVariable", "type": "string" }
+    ],
+    "name": "modifyMyVariable",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "myVariable",
+    "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

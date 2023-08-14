@@ -27,7 +27,7 @@ async function main() {
 
   // Now that we have an instance of the contract we can interact with it and change the myVariable value using the relevant function from the ModifyVariable.sol, ie. modifyMyVariable(string memory _myVariable)
   await contract.modifyMyVariable(
-    "Hello updated world on the 9th of August 2023, 11:07 am !"
+    "Hello updated world on the 14th of August 2023, 11:55 am !"
   );
 
   console.log("myVariable was updated on the blockchain");
