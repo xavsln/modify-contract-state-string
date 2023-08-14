@@ -224,6 +224,7 @@ function App() {
                   <button
                     className='button is-link is-medium'
                     onClick={getSTRGVariableHandler}
+                    disabled={walletAddress ? false : true}
                   >
                     GET VARIABLE
                   </button>
@@ -246,6 +247,7 @@ function App() {
                   <button
                     className='button is-link is-medium'
                     onClick={setNewSTRVariableHandler}
+                    disabled={walletAddress ? false : true}
                   >
                     UPDATE VARIABLE
                   </button>
