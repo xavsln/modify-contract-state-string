@@ -13,8 +13,9 @@ Further details are provided in README files inside each part (backend / fronten
 
 # Launch the frontend part
 
-cd frontend
-npm start
+- `cd frontend`
+- `npm start`
+
 Then connect your wallet and start interacting with the App.
 
 # About the backend part of the dApp
