@@ -181,7 +181,7 @@ function App() {
       <section className='hero is-fullheight'>
         <div className='faucet-hero-body'>
           <div className='container has-text-centered main-content'>
-            <h1 className='title is-1'>A simple interface that allows:</h1>
+            <h1 className='title is-1'>A simple dApp that allows:</h1>
             <h5>
               <ol>
                 <li>
