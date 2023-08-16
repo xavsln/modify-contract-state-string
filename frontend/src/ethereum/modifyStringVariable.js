@@ -26,17 +26,6 @@ const modifyStringVariableAbi = [
   },
 ];
 
-// // A function that will return an instance of the Smart Contract
-// const faucetContract = (provider) => {
-//   return new ethers.Contract(
-//     "0xE16738Fb636c83b198A71368dd0D580FBc3B993B",
-//     faucetAbi,
-//     provider
-//   );
-// };
-
-// export default faucetContract;
-
 // A function that will return an instance of the Smart Contract
 const modifyStringVariableContract = (provider) => {
   return new ethers.Contract(

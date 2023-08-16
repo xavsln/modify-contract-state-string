@@ -3,12 +3,12 @@ import "./App.css";
 import { ethers } from "ethers";
 
 import modifyStringVariableContract from "./ethereum/modifyStringVariable.js";
-import { HARDHAT_NETWORK_SUPPORTED_HARDFORKS } from "hardhat/internal/constants";
+// import { HARDHAT_NETWORK_SUPPORTED_HARDFORKS } from "hardhat/internal/constants";
 
 function App() {
   const [walletAddress, setWalletAddress] = useState("");
   const [signer, setSigner] = useState("");
-  // const [fcContract, setFcContract] = useState("");
+
   const [withdrawError, setWithdrawError] = useState("");
   const [withdrawSuccess, setWithdrawSuccess] = useState("");
   const [transactionData, setTransactionData] = useState("");
@@ -40,7 +40,6 @@ function App() {
         setSigner(provider.getSigner());
 
         /* local contract instance */
-        // setFcContract(faucetContract(provider));
         setSvContract(modifyStringVariableContract(provider));
 
         setWalletAddress(accounts[0]);
@@ -68,7 +67,6 @@ function App() {
           setSigner(provider.getSigner());
 
           /* local contract instance */
-          // setFcContract(faucetContract(provider));
           setSvContract(modifyStringVariableContract(provider));
 
           setWalletAddress(accounts[0]);
@@ -179,7 +177,7 @@ function App() {
         </div>
       </nav>
       <section className='hero is-fullheight'>
-        <div className='faucet-hero-body'>
+        <div className='modify-variable-hero-body'>
           <div className='container has-text-centered main-content'>
             <h1 className='title is-1'>A simple dApp that allows:</h1>
             <h5>
